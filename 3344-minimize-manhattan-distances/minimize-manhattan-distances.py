@@ -1,45 +1,29 @@
+from sortedcontainers import SortedList
 class Solution:
     def minimumDistance(self, points: List[List[int]]) -> int:
-        n = len(points)
-        xy_sum = [x + y for x, y in points]
-        xy_diff = [x - y for x, y in points]
+        n=len(points)
+        st1 = SortedList()
+        st2 = SortedList()
 
-        max_sum = max(xy_sum)
-        min_sum = min(xy_sum)
-        max_diff = max(xy_diff)
-        min_diff = min(xy_diff)
+        for x, y in points:
+            st1.add(x + y)
+            st2.add(x - y)
 
-        # Precompute frequency counts
-        from collections import defaultdict
-        sum_count = defaultdict(int)
-        diff_count = defaultdict(int)
-        for s in xy_sum:
-            sum_count[s] += 1
-        for d in xy_diff:
-            diff_count[d] += 1
+        ans = 1e9
+        for x, y in points:
+            p1, p2 = x + y, x - y
 
-        ans = float('inf')
+            st1.remove(p1)
+            st2.remove(p2)
 
-        for i in range(n):
-            s = xy_sum[i]
-            d = xy_diff[i]
+            dis1=st1[len(st1)-1]-st1[0]
+            dis2=st2[len(st2)-1]-st2[0]
 
-            # Temporarily remove point
-            sum_count[s] -= 1
-            diff_count[d] -= 1
-
-            # Recompute max/min only if necessary
-            new_max_sum = max_sum if sum_count[max_sum] > 0 else max(k for k in sum_count if sum_count[k] > 0)
-            new_min_sum = min_sum if sum_count[min_sum] > 0 else min(k for k in sum_count if sum_count[k] > 0)
-            new_max_diff = max_diff if diff_count[max_diff] > 0 else max(k for k in diff_count if diff_count[k] > 0)
-            new_min_diff = min_diff if diff_count[min_diff] > 0 else min(k for k in diff_count if diff_count[k] > 0)
-
-            res = max(new_max_sum - new_min_sum, new_max_diff - new_min_diff)
+            res = max(dis1, dis2)
             ans = min(ans, res)
 
-            # Restore point
-            sum_count[s] += 1
-            diff_count[d] += 1
+            st1.add(p1)
+            st2.add(p2)
 
         return ans
             
