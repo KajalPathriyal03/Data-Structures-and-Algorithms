@@ -1,7 +1,7 @@
 class Solution:
     def distributeCookies(self, nums: List[int], k: int) -> int:
         n=len(nums)
-        nums.sort(reverse=True)
+        # nums.sort(reverse=True)
         def solve(i, child):
             if i==n:
                 ans=0
