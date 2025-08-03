@@ -3,18 +3,19 @@ class Solution:
         n=len(s)
         st=defaultdict(int)
         for i in range(n):
-            cur=""
-            for j in range(i, n):
-                if cur==""  or  cur[-1]==s[j]:
-                    cur+=s[j]
-                    st[cur]+=1
-                    # print(cur)
-                else:
-                    break
+            ln=0
+            ch=s[i]
+            j=i
+            while j<n and s[j]==ch:
+                ln+=1
+                st[(ch, ln)]+=1
+                j+=1
+                
         maxi=-1
-        for ele, cnt in st.items():
+        for (ch, ln), cnt in st.items():
             if cnt>=3:
-                maxi=max(maxi, len(ele))
+                # print(ch, ln)
+                maxi=max(maxi, ln)
         return maxi
 
 
