@@ -2,17 +2,22 @@ from sortedcontainers import  SortedSet
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
         n=len(nums)
-        mp=set()
-        for ele in nums:
-            mp.add(ele)
-        for i in range(1, n+2):
-            if i not in mp:
-                return i
-                break
-        return -1
+        # modifying actual array but TC: O(n), SC: O(1)
+
+        for i, ele in enumerate(nums):
+            if ele<=0:
+                nums[i]=n+1
         
-
-
-
+        for i in range(n):
+            if abs(nums[i])<=n and abs(nums[i])-1>=0 and abs(nums[i])-1<n:
+                ind=abs(nums[i])-1
+                if nums[ind]<0: continue
+                nums[ind]=nums[ind]*(-1)
+        # print(nums)
+        for i, ele in enumerate(nums):
+            if ele>0:
+                return i+1
+        
+        return n+1
 
         
