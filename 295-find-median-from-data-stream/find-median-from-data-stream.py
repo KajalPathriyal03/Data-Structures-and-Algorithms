@@ -1,16 +1,16 @@
+from sortedcontainers import SortedList
 class MedianFinder:
 
     def __init__(self):
-        self.nums=[]
+        self.nums=SortedList()
         
 
     def addNum(self, num: int) -> None:
-        self.nums.append(num)
+        self.nums.add(num)
         
     def findMedian(self) -> float:
         n=len(self.nums)
-        # print(self.nums)
-        self.nums.sort()
+        # self.nums.sort()
         if n%2==0:
             ind=n//2
             med=(self.nums[ind]+self.nums[ind-1])/2
