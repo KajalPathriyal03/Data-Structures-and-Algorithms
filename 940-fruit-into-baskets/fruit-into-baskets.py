@@ -12,7 +12,7 @@ class Solution:
         ans=0
         while r<n:
             mp[nums[r]]+=1
-            while len(mp)>2:
+            if len(mp)>2:
                 mp[nums[l]]-=1
                 if mp[nums[l]]==0:
                     del mp[nums[l]]
