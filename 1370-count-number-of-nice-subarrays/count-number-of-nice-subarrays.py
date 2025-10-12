@@ -1,4 +1,6 @@
 class Solution:
+    # TC: O(2n)
+    # SC: O(1)
     def solve(self, k):
         if k<0:
             return 0
