@@ -12,7 +12,7 @@ class Solution:
         while r<n:
             if nums[r]==0:
                 cntZeroes+=1
-            while cntZeroes>k:
+            if cntZeroes>k:
                 if nums[l]==0:
                     cntZeroes-=1
                 l+=1  
