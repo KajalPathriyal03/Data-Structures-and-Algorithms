@@ -25,7 +25,9 @@ class Solution:
 
         ans=0
         for i in range(n):
-            ans=max(ans, nums[i]*((right_small[i]-1)-(left_small[i]+1)+1))
+            l=left_small[i]+1
+            r=right_small[i]-1
+            ans=max(ans, nums[i]*(r-l+1))
         return ans 
 
 
