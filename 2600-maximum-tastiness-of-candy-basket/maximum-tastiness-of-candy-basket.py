@@ -1,32 +1,26 @@
 class Solution:
-    def check(self, mid):
+    def isPossible(self, nums, mid, k):
         cnt=1
-        lt=self.nums[0]
-        for i in range(len(self.nums)):
-            if self.nums[i]-lt>=mid:
+        last=nums[0]
+        for i in range(len(nums)):
+            if nums[i]-last>=mid:
                 cnt+=1
-                lt=self.nums[i]
-            if cnt>=self.k:
+                last=nums[i]
+            if cnt>=k:
                 return True 
         return False
 
-    def maximumTastiness(self, price: List[int], k: int) -> int:
-        self.nums=price
-        self.k=k
-        self.nums.sort()
-        ans =0
-        l, r=0, max(self.nums)-min(self.nums)
+    def maximumTastiness(self, nums: List[int], k: int) -> int:
+        nums.sort()
+        l=0
+        r=max(nums)-min(nums)
+        ans=-1
         while l<=r:
             mid=(l+r)//2
-            if self.check(mid):
+            if self.isPossible(nums,mid, k):
                 ans=mid
                 l=mid+1
             else:
                 r=mid-1
         return ans 
-
         
-        
-
-
-    
