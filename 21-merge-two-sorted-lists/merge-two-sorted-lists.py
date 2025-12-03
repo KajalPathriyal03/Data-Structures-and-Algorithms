@@ -13,12 +13,11 @@ class Solution:
             return temp.next
         if l1.val>l2.val: 
             cur.next=l2
-            self.rec(l1, l2.next, cur.next, temp)
+            return self.rec(l1, l2.next, cur.next, temp)
         else:
             cur.next=l1
-            self.rec(l1.next, l2, cur.next, temp)
+            return self.rec(l1.next, l2, cur.next, temp)
 
-        return temp.next
 
     def mergeTwoLists(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         temp=ListNode(-1)  
