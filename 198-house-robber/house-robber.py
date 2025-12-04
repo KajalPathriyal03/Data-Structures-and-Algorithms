@@ -1,11 +1,14 @@
 class Solution:
+    def rec(self, ind, nums):
+        if ind >= len( nums):
+            return 0
+        if ind in self.dp:
+            return self.dp[ind]
+        not_take=self.rec(ind+1, nums)
+        take=nums[ind]+self.rec(ind+2, nums)
+        self.dp[ind]= max(take, not_take)
+        return self.dp[ind]
     def rob(self, nums: List[int]) -> int:
-        # dp[i]=maximum stolen money till house i
-        dp=[-1 for _ in range(len(nums)+1)]
-        dp[0]=0
-        dp[1]=nums[0]
-        for i in range(1, len(nums)):
-            dp[i+1]=max(dp[i-1]+nums[i], dp[i])
-        # print(dp)
-        return dp[len(nums)]
+        self.dp={}
+        return self.rec(0, nums)
         
