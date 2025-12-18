@@ -1,8 +1,6 @@
 class Solution:
     def rec(self, ind, nums, sm):
         if sm>=self.target or ind==len(nums):
-            firstKnapsack=sm-nums[ind-1]
-            secondKnapsack=self.total-firstKnapsack
             return abs(sm-(self.total-sm))
         if (ind, sm) in self.dp:
             return self.dp[(ind, sm)]
