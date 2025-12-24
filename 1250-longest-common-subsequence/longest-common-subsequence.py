@@ -1,26 +1,11 @@
 class Solution:
-    def rec(self, ind1, ind2, text1, text2):
-        if ind1>=len(text1) or ind2>=len(text2):
-            return 0
-        if (ind1, ind2) in self.dp:
-            return self.dp[(ind1, ind2)]
-        ans=0
-        if text1[ind1]==text2[ind2]:
-            # self.s+=text1[ind1]
-            ans=1+self.rec(ind1+1, ind2+1, text1, text2)
-
-        else:
-            one=self.rec(ind1+1, ind2, text1, text2)
-            two=self.rec(ind1,ind2+1, text1, text2)
-            ans=max(one, two)
-
-        self.dp[(ind1, ind2)]= ans 
-        return self.dp[(ind1, ind2)]
-
-
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
-        self.dp={}
-        self.s=""
-        ans =self.rec(0, 0, text1, text2)
-        return ans 
-        
+        n,m=len(text1), len(text2)
+        dp=[[0 for _ in range(m+1)]for _ in range(n+1)] #i and j are representing the length of strings 
+        for i in range(1, n+1):
+            for j in range(1, m+1):
+                if text1[i-1]==text2[j-1]:
+                    dp[i][j]=1+dp[i-1][j-1] # if characters are equal it means we need to add the length with previous answer.
+                else:
+                    dp[i][j]=max(dp[i][j-1], dp[i-1][j])
+        return dp[n][m]        
