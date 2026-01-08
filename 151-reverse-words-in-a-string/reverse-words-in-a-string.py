@@ -1,18 +1,6 @@
 class Solution:
     def reverseWords(self, s: str) -> str:
-        arr=[]
-        l, r=0, 0
-        while l<len(s):
-            if s[l]!=" ":
-                r=l
-                while r<len(s):
-                    if s[r]==" ":
-                        break
-                    r+=1
-                arr.append(s[l:r])
-                l=r
-            l+=1
-
+        arr=s.split()
         s=" ".join(arr)
 
         ans=""
