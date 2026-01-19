@@ -1,18 +1,14 @@
 class Solution:
-
     def subarraySum(self, nums: List[int], k: int) -> int:
-        ans=0
-        preSum=0
-        mp={0:1}
+        pref_sum, ans=0, 0
+        mp={}
+        mp[0]=1
         for ele in nums:
-            preSum+=ele
-            if preSum-k in mp:
-                ans+=mp[preSum-k]
-            if preSum in mp:
-                mp[preSum]+=1
+            pref_sum+=ele
+            if pref_sum-k in mp:
+                ans+=mp[pref_sum-k]
+            if pref_sum in mp:
+                mp[pref_sum]+=1
             else:
-                mp[preSum]=1
-        return ans 
-
-
-        
+                mp[pref_sum]=1
+        return ans
