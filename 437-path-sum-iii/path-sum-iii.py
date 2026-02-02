@@ -5,23 +5,25 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def findPath(self, root, target):
+    def dfs(self, root, target, cs, mp):
         if not root: return 
-        if root.val==target:
-            self.ans+=1
-        
-        self.findPath(root.left, target-root.val)
-        self.findPath(root.right, target-root.val)
 
-    def preorder(self, root, target):
-        if not root: return 
-        self.findPath(root, target)
-        self.preorder(root.left, target)
-        self.preorder(root.right, target)
+        cs+=root.val
+        oldSum=cs-target
+        self.ans+=mp.get(oldSum, 0)
+        mp[cs]+=1
+
+        self.dfs(root.left, target, cs, mp)
+        self.dfs(root.right, target, cs, mp)
+
+        mp[cs]-=1
 
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
         self.ans=0
-        self.preorder(root, targetSum)
+
+        mp=defaultdict(int)
+        mp[0]=1
+        self.dfs(root, targetSum, 0, mp)
         return self.ans
 
         
