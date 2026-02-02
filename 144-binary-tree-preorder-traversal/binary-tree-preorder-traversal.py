@@ -5,16 +5,16 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def solve(self, root):
-        if root==None:
-            return
+    def preorder(self, root, ans):
+        if not root:
+            return 
+        ans.append(root.val)
+        self.preorder(root.left, ans )
+        self.preorder(root.right, ans)
 
-        self.ans.append(root.val)
-        self.solve(root.left)
-        self.solve(root.right)
-    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        self.ans=[]
-        self.solve(root)
-        return self.ans 
         
+    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        ans=[]
+        self.preorder(root, ans)
+        return ans 
         
