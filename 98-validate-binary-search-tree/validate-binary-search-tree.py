@@ -5,10 +5,14 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    def inorder(self, root, left, right):
+        if not root: return True
+        if not (root.val<right and root.val>left):
+            return False 
+        leftSide=self.inorder(root.left, left, root.val)
+        rightSide=self.inorder(root.right, root.val, right)
+        return leftSide and rightSide
+
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        def dfs(cur, left, right):
-            if not cur: return True 
-            if  not (cur.val<right and cur.val>left):
-                return False 
-            return (dfs(cur.left, left, cur.val) and dfs(cur.right, cur.val, right))
-        return dfs(root, float('-inf'), float('inf'))
+        return self.inorder(root, float('-inf'), float('inf'))
+        
