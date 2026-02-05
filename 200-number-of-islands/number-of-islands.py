@@ -1,22 +1,21 @@
 class Solution:
-    def dfs(self, row, col):
-        if row>=len(self.grid) or row<0 or col>=len(self.grid[0]) or col<0 or self.grid[row][col]=='0':
-            return 
-        self.grid[row][col]='0'
-        directions=[[1, 0],[-1,0], [0, 1], [0, -1]]
+    def dfs(self, i, j, grid, n, m):
+        directions=[[1, 0], [0,1], [0,-1], [-1, 0]]
         for x, y in directions:
-            newx=row+x
-            newy=col+y
-            self.dfs(newx, newy)
+            newx=i+x
+            newy=j+y
+            if newx<n and newy<m and newx>=0  and newy>=0 and grid[newx][newy]=="1":
+                grid[newx][newy]="0"
+                self.dfs(newx, newy, grid, n, m)
         
     def numIslands(self, grid: List[List[str]]) -> int:
+        n, m=len(grid), len(grid[0])
         ans=0
-        self.grid=grid
-        for row in range(len(self.grid)):
-            for col in range(len(self.grid[0])):
-                if self.grid[row][col]=='1':
+        for i in range(n):
+            for j in range(m):
+                if grid[i][j]=="1":
                     ans+=1
-                    self.dfs(row, col)
-        return ans
-        
+                    self.dfs(i, j, grid, n, m)
+        return ans 
+
         
