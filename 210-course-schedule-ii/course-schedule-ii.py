@@ -1,18 +1,18 @@
 class Solution:
-    def findOrder(self, n: int, edges: List[List[int]]) -> List[int]:
+    def findOrder(self, n: int, prerequisites: List[List[int]]) -> List[int]:
+        if n==0: return []
         adj=defaultdict(list)
         ind=[0 for _ in range(n)]
-        for v, u in edges:
-            adj[u].append(v)
-            ind[v]+=1
+        for sec, first in prerequisites:
+            adj[first].append(sec)
+            ind[sec]+=1
         print(ind)
         queue=deque()
+        ans=[]
         for i in range(n):
             if ind[i]==0:
                 queue.append(i)
-        ans=[]
-        if len(queue)==0: 
-            return ans 
+        
         while queue:
             node=queue.popleft()
             ans.append(node)
@@ -22,10 +22,6 @@ class Solution:
                     queue.append(nei)
         if len(ans)!=n:
             return []
+        
         return ans 
-
-
-
-
-
-
+        
