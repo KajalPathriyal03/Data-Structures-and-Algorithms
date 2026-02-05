@@ -1,11 +1,11 @@
 class Solution:
     def dfs(self, i, j, grid, n, m):
+        grid[i][j]="0"
         directions=[[1, 0], [0,1], [0,-1], [-1, 0]]
         for x, y in directions:
             newx=i+x
             newy=j+y
             if newx<n and newy<m and newx>=0  and newy>=0 and grid[newx][newy]=="1":
-                grid[newx][newy]="0"
                 self.dfs(newx, newy, grid, n, m)
         
     def numIslands(self, grid: List[List[str]]) -> int:
