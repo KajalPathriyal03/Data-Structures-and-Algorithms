@@ -1,23 +1,38 @@
 class Solution:
-    def rec(self, i, j, grid):
-        if (i, j) in self.dp:
-            return self.dp[(i, j)]
-        res=1
-        directions=[[1,0], [-1, 0], [0, 1], [0, -1]]
-        for x, y in directions:
-            newx=i+x
-            newy=j+y
-            if newx>=0 and newy>=0 and newx<len(grid) and newy < len(grid[0]) and grid[newx][newy]>grid[i][j]:
-                res=max(res, 1+self.rec(newx, newy, grid))
-
-        self.dp[(i, j)]= res
-        return  self.dp[(i, j)]
     def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
-        self.dp={}
-        ans=-1
-        for i in range(len(matrix)):
-            for j in range(len(matrix[0])):
-                ans=max(ans, self.rec(i, j, matrix))
+        directions=[[1, 0], [-1, 0],[0, -1], [0, 1]]
+        rows, cols=len(matrix),len(matrix[0])
+
+        adj=defaultdict(list)
+        ind=[[0 for _ in range(cols)] for _ in range(rows)]
+
+        for row in range(rows):
+            for col in range(cols):
+                for x, y in directions:
+                    newx=row+x
+                    newy=col+y
+                    if newx>=0 and newx<rows and newy>=0 and newy<cols and matrix[newx][newy]>matrix[row][col]:
+                        adj[(row, col)].append((newx, newy))
+                        ind[newx][newy]+=1
+            
+        queue=deque()
+        for row in range(rows):
+            for col in range(cols):
+                if ind[row][col]==0:
+                    queue.append((row, col))
+
+        ans=0
+        while queue:
+            for i in range(len(queue)):
+                row, col=queue.popleft()
+                for newx, newy in adj[(row, col)]:
+                    ind[newx][newy]-=1
+                    if ind[newx][newy]==0:
+                        queue.append((newx, newy))
+            ans+=1
         return ans 
-                
+
+
+        
+
         
