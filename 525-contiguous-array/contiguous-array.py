@@ -5,7 +5,7 @@ class Solution:
             ele=nums[i]
             if ele==0:
                 nums[i]=-1
-        mp[0]=-1
+        mp[0]=-1 # because we are taking size from the next index (i+1 -> j)
         ans =0
         prefSum=0
         for i in range(len(nums)):
