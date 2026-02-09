@@ -1,17 +1,29 @@
 class Solution:
-    def diff(self, nums):
-        diffBetween=[]
-        for i in range(1, len(nums)):
-            diffBetween.append(nums[i]-nums[i-1])
-        return min(diffBetween)
+    def binarySearch(self, nums, k):
+        mini=float('inf')
+
+        for i in range(len(nums)):
+            if i==0:
+                continue 
+
+            mini=min(mini, nums[i]-nums[i-1])
+        return mini<=k
+
 
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         mp=defaultdict(list)
+
         for i, ele in enumerate(nums):
             mp[ele].append(i)
+
+        # 1. treat the values of map as an array and find two indices where the abs difference is <= k
+        ans=False
         for key, val in mp.items():
-            if len(mp[key])>1:
-                if self.diff(mp[key])<=k:
-                    return True 
-        return False
+            if len(val)>1:
+                ans=self.binarySearch(val, k)
+        
+        return ans
+
+
+        
         
