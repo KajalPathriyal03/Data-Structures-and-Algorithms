@@ -8,14 +8,11 @@ class Solution:
             heappush(pq, (val, key))
             if len(pq)>k:
                 heappop(pq)
-                
-        ans =[]
-        # print(pq)
+        ans=[]
         while pq:
-            _ , key=heappop(pq)
-            ans.append(key)
+            ans.append(heappop(pq)[1])
         return ans 
 
-            
+                
 
         
