@@ -15,14 +15,9 @@ class Solution:
                 if dis[nei]> newWt:
                     dis[nei]=newWt
                     heappush(pq,(dis[nei], nei))
-        print(dis)
-        for i, ele in enumerate(dis):
-            if i!=0 and ele==float('inf'):
-                return -1
-            elif ele!=float('inf'):
-                ans=max(ans, ele)
 
-
+        ans=max(dis[1:])
+        if ans == float('inf'): return -1
         return ans 
 
 
