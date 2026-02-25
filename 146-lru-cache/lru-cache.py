@@ -2,53 +2,59 @@ class Node:
     def __init__(self, key, val):
         self.key=key
         self.val=val
-        self.prev=None
         self.next=None
-
+        self.prev=None 
 class LRUCache:
+
     def __init__(self, capacity: int):
-        self.cap=capacity
         self.head=Node(-1, -1)
         self.tail=Node(-1, -1)
         self.head.next=self.tail
         self.tail.prev=self.head
         self.mp={}
-
-    def addNode(self, newNode):
-        temp=self.head.next
-        newNode.next=temp
-        newNode.prev=self.head 
-        self.head.next=newNode
-        temp.prev=newNode
-
-    def deleteNode(self, delNode):
+        self.n=capacity
+        
+    def insert(self, node):
+        tmp=self.head.next
+        
+        node.next=tmp
+        node.prev=self.head
+        self.head.next=node
+        tmp.prev=node
+        
+    def delete(self, delNode):
         prevv=delNode.prev
         nextt=delNode.next
         prevv.next=nextt
         nextt.prev=prevv
-    
+         
     def get(self, key: int) -> int:
-        if key in self.mp:
-            resNode=self.mp[key]
-            ans=resNode.val
-            del self.mp[key]
-            self.deleteNode(resNode)
-            self.addNode(resNode)
-            self.mp[key]=self.head.next
-            return ans 
-        return -1
-
-    def put(self, key: int, value: int) -> None:
+        if key not in self.mp:
+            return -1 
+        ans=-1
+        node=self.mp[key]
+        ans=node.val
+        del self.mp[key]
+        self.delete(node)
+        self.insert(node)
+        self.mp[key]=self.head.next
+        
+        return ans 
+            
+            
+    def put(self, key: int, val: int) -> None:
         if key in self.mp:
             curNode=self.mp[key]
             del self.mp[key]
-            self.deleteNode(curNode)
+            self.delete(curNode)
         
-        if len(self.mp)==self.cap:
-            del self.mp[self.tail.prev.key]
-            self.deleteNode(self.tail.prev)
+        if len(self.mp)==self.n:
+            node=self.tail.prev
+            del self.mp[node.key]
+            self.delete(node)
         
-        self.addNode(Node(key, value))
+        curNode=Node(key, val)
+        self.insert(curNode)
         self.mp[key]=self.head.next
         
 
