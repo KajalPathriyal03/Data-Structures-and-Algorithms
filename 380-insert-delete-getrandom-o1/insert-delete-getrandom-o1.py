@@ -1,33 +1,33 @@
 class RandomizedSet:
 
     def __init__(self):
-        self.ls = []
-        self.mp = {} # value: index
+        self.ls=[]
+        self.mp={}
 
     def insert(self, val: int) -> bool:
-        if val in self.mp:
-            return False
-        
-        self.mp[val] = len(self.ls)
-        self.ls.append(val)
+        if val in self.mp: return False 
 
+        self.mp[val]=len(self.ls)
+        self.ls.append(val)
         return True
+        
 
     def remove(self, val: int) -> bool:
         if val not in self.mp:
-            return False
-        
-        index = self.mp[val]
-        self.mp[self.ls[-1]] = index
-        del self.mp[val]
-        self.ls[index] = self.ls[-1]
-        self.ls.pop()
+            return False 
 
-        return True
+        del_ind=self.mp[val]
+        last_element=self.ls[-1]
+        self.mp[last_element]=del_ind
+        del self.mp[val]
+
+        self.ls[del_ind]=last_element
+        self.ls.pop()
+        return True 
 
     def getRandom(self) -> int:
-        index = random.randint(0, len(self.ls) - 1)
-        return self.ls[index]
+        ind=random.randint(0, len(self.ls)-1)
+        return self.ls[ind]
         
 
 
