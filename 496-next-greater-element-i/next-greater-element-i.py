@@ -1,22 +1,31 @@
 class Solution:
-    def nextGreaterElement(self, A: List[int], B: List[int]) -> List[int]:
-        n, m=len(A), len(B)
-        right=defaultdict(int)
+    def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        n=len(nums2)
         st=[]
-        for i in range(m-1, -1, -1):
-            while st and B[st[-1]]<=B[i]:
+        ans=[-1 for _ in range(len(nums2))]
+
+        for i in range(len(nums2)-1, -1, -1):
+            while st and nums2[st[-1]]<=nums2[i]:
                 st.pop()
-            if len(st)==0:
-                right[B[i]]=-1
-            else:
-                right[B[i]]=B[st[-1]]
+
+            if st:
+                ans[i]=st[-1]
+            
             st.append(i)
-        ans=[]
-        for ele in A:
-            if ele in right:
-                ans.append(right[ele])
+        mp={}
+
+        for i in range(len(nums2)):
+            if ans[i]==-1:
+                mp[nums2[i]]=-1
             else:
-                ans.append(-1)
-        return ans 
+                mp[nums2[i]]=nums2[ans[i]]
+
+        res=[]
+        for ele in nums1:
+            if ele in mp:
+                res.append(mp[ele])
+            else:
+                res.append(mp[ele])
+        return res
 
         
