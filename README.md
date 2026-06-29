@@ -27,12 +27,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0199-binary-tree-right-side-view](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0199-binary-tree-right-side-view) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0199-binary-tree-right-side-view](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0199-binary-tree-right-side-view) |
 ## Binary Tree
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0199-binary-tree-right-side-view](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0199-binary-tree-right-side-view) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0199-binary-tree-right-side-view](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0199-binary-tree-right-side-view) |
 <!---LeetCode Topics End-->
