@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0199-binary-tree-right-side-view) |
+| [0207-course-schedule](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0207-course-schedule) |
 ## Binary Tree
 |  |
 | ------- |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0199-binary-tree-right-side-view) |
+| [0207-course-schedule](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0207-course-schedule) |
 ## Two Pointers
 |  |
 | ------- |
@@ -75,4 +77,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
+## Graph Theory
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0207-course-schedule) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
