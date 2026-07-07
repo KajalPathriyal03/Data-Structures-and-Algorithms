@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0141-linked-list-cycle](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0141-linked-list-cycle) |
 ## Stack
 |  |
 | ------- |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0141-linked-list-cycle) |
 | [0295-find-median-from-data-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0295-find-median-from-data-stream) |
 ## Design
 |  |
@@ -93,4 +95,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+## Hash Table
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
