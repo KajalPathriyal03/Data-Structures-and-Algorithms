@@ -12,7 +12,6 @@ class Solution:
         self.backtracking(ind+1, nums, target, res)     
         
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        candidates.sort()
         self.ans=[]
         self.backtracking(0, candidates, target, [])
         return self.ans 
