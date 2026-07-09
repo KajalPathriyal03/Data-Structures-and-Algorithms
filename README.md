@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0039-combination-sum) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0152-maximum-product-subarray](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0152-maximum-product-subarray) |
 | [0300-longest-increasing-subsequence](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0300-longest-increasing-subsequence) |
@@ -99,4 +100,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0141-linked-list-cycle) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
