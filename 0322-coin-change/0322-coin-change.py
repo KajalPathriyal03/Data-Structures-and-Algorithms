@@ -2,7 +2,6 @@ class Solution:
     def dfs(self, ind, target, nums):
         if ind>=len(nums):
             return float('inf')
-        if target<0: return float('inf')
         if target==0:
             return 0
         if (ind, target) in self.dp:
