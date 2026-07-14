@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0061-rotate-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0141-linked-list-cycle](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
 ## Stack
 |  |
 | ------- |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0061-rotate-list](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0295-find-median-from-data-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0295-find-median-from-data-stream) |
 ## Design
 |  |
@@ -107,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0242-valid-anagram](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0242-valid-anagram) |
 ## Backtracking
 |  |
