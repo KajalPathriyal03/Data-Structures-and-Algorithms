@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0071-simplify-path](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0071-simplify-path) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
 ## Tree
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0071-simplify-path](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0071-simplify-path) |
 | [0242-valid-anagram](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0242-valid-anagram) |
 ## Math
 |  |
