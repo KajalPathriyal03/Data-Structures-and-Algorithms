@@ -11,10 +11,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0322-coin-change) |
 | [0733-flood-fill](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
+| [1146-snapshot-array](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1146-snapshot-array) |
 ## Binary Search
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0300-longest-increasing-subsequence) |
+| [1146-snapshot-array](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1146-snapshot-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
+| [1146-snapshot-array](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1146-snapshot-array) |
 ## Sorting
 |  |
 | ------- |
@@ -119,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0242-valid-anagram](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0242-valid-anagram) |
+| [1146-snapshot-array](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1146-snapshot-array) |
 ## Backtracking
 |  |
 | ------- |
