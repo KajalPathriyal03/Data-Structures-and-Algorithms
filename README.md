@@ -40,12 +40,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0071-simplify-path](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0071-simplify-path) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0173-binary-search-tree-iterator) |
 ## Tree
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0199-binary-tree-right-side-view) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Depth-First Search
@@ -62,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0199-binary-tree-right-side-view) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Breadth-First Search
@@ -81,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0173-binary-search-tree-iterator) |
 | [0295-find-median-from-data-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0355-design-twitter](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0355-design-twitter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
@@ -105,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0173-binary-search-tree-iterator](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0173-binary-search-tree-iterator) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Graph Theory
 |  |
@@ -157,4 +162,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0206-reverse-linked-list) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
