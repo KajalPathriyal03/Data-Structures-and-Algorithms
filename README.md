@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0152-maximum-product-subarray) |
 | [0284-peeking-iterator](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0284-peeking-iterator) |
 | [0300-longest-increasing-subsequence](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0300-longest-increasing-subsequence) |
+| [0303-range-sum-query-immutable](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0322-coin-change) |
 | [0733-flood-fill](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
 | [1146-snapshot-array](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1146-snapshot-array) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0232-implement-queue-using-stacks) |
 | [0284-peeking-iterator](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0284-peeking-iterator) |
 | [0295-find-median-from-data-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0295-find-median-from-data-stream) |
+| [0303-range-sum-query-immutable](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0303-range-sum-query-immutable) |
 | [0355-design-twitter](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0355-design-twitter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
 | [1146-snapshot-array](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1146-snapshot-array) |
@@ -178,4 +180,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0232-implement-queue-using-stacks) |
+## Prefix Sum
+|  |
+| ------- |
+| [0303-range-sum-query-immutable](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0303-range-sum-query-immutable) |
 <!---LeetCode Topics End-->
