@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0232-implement-queue-using-stacks) |
 ## Tree
 |  |
 | ------- |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0355-design-twitter](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0355-design-twitter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
@@ -172,4 +174,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0232-implement-queue-using-stacks) |
 <!---LeetCode Topics End-->
