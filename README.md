@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0295-find-median-from-data-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0295-find-median-from-data-stream) |
+| [0556-next-greater-element-iii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0556-next-greater-element-iii) |
 ## Design
 |  |
 | ------- |
@@ -150,10 +151,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0071-simplify-path](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0071-simplify-path) |
 | [0242-valid-anagram](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0242-valid-anagram) |
+| [0556-next-greater-element-iii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0556-next-greater-element-iii) |
 ## Math
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0062-unique-paths) |
+| [0556-next-greater-element-iii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0556-next-greater-element-iii) |
 ## Combinatorics
 |  |
 | ------- |
