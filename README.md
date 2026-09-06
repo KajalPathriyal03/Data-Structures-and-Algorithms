@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0322-coin-change) |
+| [0416-partition-equal-subset-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0416-partition-equal-subset-sum) |
 | [0733-flood-fill](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
 | [1146-snapshot-array](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1146-snapshot-array) |
 ## Binary Search
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0152-maximum-product-subarray) |
 | [0300-longest-increasing-subsequence](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0322-coin-change) |
+| [0416-partition-equal-subset-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0416-partition-equal-subset-sum) |
 ## Linked List
 |  |
 | ------- |
@@ -187,4 +189,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0303-range-sum-query-immutable) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0416-partition-equal-subset-sum) |
+## 0-1 Knapsack
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0416-partition-equal-subset-sum) |
 <!---LeetCode Topics End-->
