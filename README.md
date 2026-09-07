@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0064-minimum-path-sum) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0152-maximum-product-subarray) |
 | [0284-peeking-iterator](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0284-peeking-iterator) |
 | [0300-longest-increasing-subsequence](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0300-longest-increasing-subsequence) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0064-minimum-path-sum) |
 | [0072-edit-distance](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0072-edit-distance) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0152-maximum-product-subarray) |
 | [0300-longest-increasing-subsequence](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0322-coin-change) |
@@ -144,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0139-word-break](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0242-valid-anagram](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0242-valid-anagram) |
@@ -160,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0071-simplify-path](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0072-edit-distance) |
+| [0139-word-break](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 | [0242-valid-anagram](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0242-valid-anagram) |
 | [0556-next-greater-element-iii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0556-next-greater-element-iii) |
 | [1143-longest-common-subsequence](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1143-longest-common-subsequence) |
@@ -213,4 +217,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1143-longest-common-subsequence](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1143-longest-common-subsequence) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
+## Brute-Force Search
+|  |
+| ------- |
+| [0139-word-break](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
