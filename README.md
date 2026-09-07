@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0039-combination-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0039-combination-sum) |
 | [0064-minimum-path-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0064-minimum-path-sum) |
+| [0078-subsets](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0078-subsets) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0039-combination-sum) |
+| [0078-subsets](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0078-subsets) |
 | [0131-palindrome-partitioning](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0131-palindrome-partitioning) |
 | [0494-target-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0494-target-sum) |
 ## String
@@ -232,4 +234,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
