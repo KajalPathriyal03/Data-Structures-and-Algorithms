@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0064-minimum-path-sum) |
 | [0072-edit-distance](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0072-edit-distance) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0131-palindrome-partitioning](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0152-maximum-product-subarray) |
 | [0300-longest-increasing-subsequence](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0300-longest-increasing-subsequence) |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0039-combination-sum) |
+| [0131-palindrome-partitioning](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0131-palindrome-partitioning) |
 | [0494-target-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0494-target-sum) |
 ## String
 |  |
@@ -163,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0071-simplify-path](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0072-edit-distance) |
+| [0131-palindrome-partitioning](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 | [0242-valid-anagram](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0242-valid-anagram) |
 | [0556-next-greater-element-iii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0556-next-greater-element-iii) |
