@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0494-target-sum) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1143-longest-common-subsequence](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1143-longest-common-subsequence) |
 ## Linked List
 |  |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0207-course-schedule) |
 | [0733-flood-fill](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Binary Tree
 |  |
 | ------- |
@@ -94,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0207-course-schedule) |
 | [0322-coin-change](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0322-coin-change) |
 | [0733-flood-fill](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Two Pointers
 |  |
 | ------- |
@@ -125,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0355-design-twitter](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0355-design-twitter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Data Stream
 |  |
 | ------- |
@@ -140,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0207-course-schedule) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Topological Sort
 |  |
 | ------- |
@@ -248,4 +253,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0090-subsets-ii) |
+## Shortest Path
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0787-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
