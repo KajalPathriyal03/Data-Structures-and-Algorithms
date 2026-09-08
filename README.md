@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0040-combination-sum-ii) |
 | [0064-minimum-path-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0064-minimum-path-sum) |
 | [0078-subsets](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0090-subsets-ii) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0079-word-search) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0199-binary-tree-right-side-view) |
@@ -162,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0131-palindrome-partitioning) |
 | [0494-target-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0494-target-sum) |
@@ -171,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0071-simplify-path](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0072-edit-distance) |
+| [0079-word-search](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 | [0242-valid-anagram](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0242-valid-anagram) |
@@ -189,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0064-minimum-path-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0064-minimum-path-sum) |
+| [0079-word-search](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0079-word-search) |
 | [0733-flood-fill](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
 ## Sliding Window
 |  |
