@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0494-target-sum) |
 | [0733-flood-fill](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
+| [0860-lemonade-change](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0860-lemonade-change) |
 | [1146-snapshot-array](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1146-snapshot-array) |
 ## Binary Search
 |  |
@@ -269,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
+| [0860-lemonade-change](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0860-lemonade-change) |
 ## Quicksort
 |  |
 | ------- |
