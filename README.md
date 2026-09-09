@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0494-target-sum) |
+| [0678-valid-parenthesis-string](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1143-longest-common-subsequence](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1143-longest-common-subsequence) |
 ## Linked List
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0232-implement-queue-using-stacks) |
+| [0678-valid-parenthesis-string](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
 ## Tree
 |  |
 | ------- |
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 | [0242-valid-anagram](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0242-valid-anagram) |
 | [0556-next-greater-element-iii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0556-next-greater-element-iii) |
+| [0678-valid-parenthesis-string](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
 | [1143-longest-common-subsequence](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1143-longest-common-subsequence) |
 ## Math
 |  |
@@ -270,9 +273,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
+| [0678-valid-parenthesis-string](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
 | [0860-lemonade-change](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0860-lemonade-change) |
 ## Quicksort
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0678-valid-parenthesis-string](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
 <!---LeetCode Topics End-->
