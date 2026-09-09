@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0416-partition-equal-subset-sum) |
+| [0455-assign-cookies](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0494-target-sum) |
 | [0733-flood-fill](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
 | [1146-snapshot-array](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1146-snapshot-array) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0295-find-median-from-data-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0295-find-median-from-data-stream) |
+| [0455-assign-cookies](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
 | [0556-next-greater-element-iii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0556-next-greater-element-iii) |
 ## Design
 |  |
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0242-valid-anagram](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0295-find-median-from-data-stream) |
+| [0455-assign-cookies](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -262,4 +265,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0787-cheapest-flights-within-k-stops) |
+## Greedy
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
+## Quicksort
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
 <!---LeetCode Topics End-->
