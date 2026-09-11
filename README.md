@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0494-target-sum) |
+| [0622-design-circular-queue](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0622-design-circular-queue) |
 | [0733-flood-fill](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
 | [0860-lemonade-change](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0860-lemonade-change) |
 | [1146-snapshot-array](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1146-snapshot-array) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0206-reverse-linked-list](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0206-reverse-linked-list) |
 | [0355-design-twitter](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0355-design-twitter) |
+| [0622-design-circular-queue](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0622-design-circular-queue) |
 ## Stack
 |  |
 | ------- |
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0303-range-sum-query-immutable](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0303-range-sum-query-immutable) |
 | [0355-design-twitter](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0355-design-twitter) |
+| [0622-design-circular-queue](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0622-design-circular-queue) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
 | [1146-snapshot-array](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1146-snapshot-array) |
 ## Sorting
@@ -233,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0232-implement-queue-using-stacks) |
+| [0622-design-circular-queue](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0622-design-circular-queue) |
 ## Prefix Sum
 |  |
 | ------- |
