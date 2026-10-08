@@ -203,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0556-next-greater-element-iii](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0556-next-greater-element-iii) |
 | [0678-valid-parenthesis-string](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
 | [1143-longest-common-subsequence](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/1143-longest-common-subsequence) |
+| [4006-count-valid-prefixes](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/4006-count-valid-prefixes) |
 ## Math
 |  |
 | ------- |
@@ -291,4 +292,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
+## Counting
+|  |
+| ------- |
+| [4006-count-valid-prefixes](https://github.com/KajalPathriyal03/Data-Structures-and-Algorithms/tree/master/4006-count-valid-prefixes) |
 <!---LeetCode Topics End-->
